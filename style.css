@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar */
+
+nav {
+  background: #222;
+  color: white;
+  padding: 15px 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Sections */
+
+section {
+  padding: 60px 30px;
+}
+
+#home {
+  text-align: center;
+  background: white;
+}
+
+#home h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#home p {
+  font-size: 20px;
+  color: #666;
+}
+
+/* About */
+
+#about {
+  background: #fafafa;
+}
+
+/* Skills */
+
+.card {
+  display: inline-block;
+  background: #00bcd4;
+  color: white;
+
+  padding: 12px 20px;
+  margin: 10px;
+
+  border-radius: 8px;
+}
+
+/* Projects */
+
+.project-card {
+  background: white;
+
+  padding: 20px;
+  margin-top: 15px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+
+form {
+  max-width: 500px;
+}
+
+input,
+textarea {
+  width: 100%;
+
+  padding: 12px;
+  margin: 10px 0;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #00bcd4;
+  color: white;
+
+  border: none;
+  padding: 12px 20px;
+
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0097a7;
+}
+
+/* Footer */
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+
+  padding: 20px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  #home h1 {
+    font-size: 30px;
+  }
+}
