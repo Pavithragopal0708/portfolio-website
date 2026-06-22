@@ -1,4 +1,4 @@
-# portfolio-website
+# personal portfolio-website
 
 ## Description
 A responsive personal portfolio website built using HTML, CSS, JavaScript, Node.js, and Express.js.
